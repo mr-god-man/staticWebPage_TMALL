@@ -1,0 +1,907 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋
+}
+
+img {
+    border: 0px;
+}
+
+a {
+    color: #3c3c3c;
+}
+
+.usernav-wrapper {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+.usernav-wrapper .usernav-content {
+    /*border:2px solid black;*/
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+
+.usernav-wrapper .usernav-content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left {
+    /*border:1px solid red;*/
+    float: left;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li {
+    float: left;
+    padding: 0 7px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left .nm {
+    max-width: 98px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left div {
+    height: 35px;
+    line-height: 35px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li a {
+    margin-right: 7px;
+    float: left;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li span {
+    float: right;
+    margin-right: 7px;
+    margin-top: 16px;
+    width: 6px;
+    height: 5px;
+    background-image: url(img/jt.png);
+    background-position: -5px 11px;
+    background-size: 16px 16px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li a:hover {
+    color: #f40;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li .message {
+    float: left;
+    margin-top: 12px;
+    width: 12px;
+    height: 12px;
+    background-image: url(img/Message1.png);
+    background-size: 12px 12px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li .message:hover {
+    background-image: url(img/Message3.png);
+}
+
+.usernav-wrapper .usernav-content-right {
+    float: right;
+}
+
+.usernav-wrapper .usernav-content-right li {
+    float: left;
+    padding: 0 7px;
+}
+
+
+.usernav-wrapper .usernav-content-right li div {
+    height: 35px;
+    line-height: 35px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li a {
+    margin-right: 7px;
+    float: left;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right .line {
+    height: 35px;
+    line-height: 35px;
+    color: #ccc;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li a:hover {
+    color: #f40;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li span {
+    float: left;
+    margin-right: 7px;
+    margin-top: 16px;
+    width: 6px;
+    height: 5px;
+    background-image: url(img/jt.png);
+    background-position: -5px 11px;
+    background-size: 16px 16px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li .star {
+    margin-top: 12px;
+    width: 12px;
+    height: 12px;
+    background-image: url(img/star.png);
+    background-size: 12px 12px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li .shoppingcar {
+    margin-top: 12px;
+    width: 12px;
+    height: 12px;
+    background-image: url(img/shopping_cart_no.png);
+    background-size: 12px 12px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li .shoppingcar:hover {
+    background-image: url(img/shopping_cart_yes.png);
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li .list {
+    margin-top: 12px;
+    width: 12px;
+    height: 12px;
+    background-image: url(img/list.png);
+    background-size: 12px 12px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li .list:hover {
+    background-image: url(img/list1.png);
+}
+
+.taobao_body {
+    width: 1190px;
+    margin: 0 auto;
+    /*height: 200px;
+	background-color: orange;*/
+}
+
+.taobao_body .head {
+    position: relative;
+    height: 100px;
+    /* border: 1px solid red;*/
+    padding-top: 18px;
+}
+
+.taobao_body .head-search {
+    margin: 0 220px 0 250px;
+    /*background-color: orange;*/
+    height: 100px;
+}
+
+.taobao_body .head-logo {
+    width: 230px;
+    height: 80px;
+    background: url(img/logo.png) 0 0 no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 26px;
+}
+
+.taobao_body .head-logo a {
+    width: 146px;
+    height: 0px;
+    padding-top: 60px;
+    display: block;
+    overflow: hidden;
+}
+
+.taobao_body .head-code a {
+    display: block;
+    width: 94px;
+    height: 112px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    text-align: center;
+    color: #6c6c6c;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+}
+
+.taobao_body .head-code a .h {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 4px auto 0;
+    width: 78px;
+    color: #f40!important;
+}
+
+.taobao_body .head-code a img {
+    display: block;
+    margin-left: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+.taobao_body .search-head {
+    height: 25px;
+    /*    border: 1px solid red;*/
+}
+
+.taobao_body .head-search .search-head li {
+    float: left;
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.taobao_body .head-search .search-head li a {
+    display: block;
+    width: 50px;
+    height: 25px;
+    color: rgb(60, 60, 60);
+}
+
+.taobao_body .head-search .search-head li a:hover {
+    background-color: #f9e6e6;
+}
+
+.choosen {
+    background-color: #ff5400!important;
+    color: #ffffff!important;
+}
+
+.taobao_body .head-search .search-box {
+    position: relative;
+    height: 34px;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    border-color: #f50;
+}
+
+.taobao_body .head-search .search-box input.content {
+    padding: 6px 0;
+    text-indent: 10px;
+    height: 22px;
+    line-height: 22px;
+    width: 618px;
+    border: 0;
+    outline: 0;
+    background: #fff;
+}
+
+.taobao_body .head-search .search-box .submit {
+    width: 100px;
+    height: 34px;
+    color: #fff;
+    background-image: url(img/search.png);
+    background-position: -250px -3px;
+    border: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.taobao_body .head-search .search-box .searchfoot-nav {
+    position: relative;
+    padding: 5px 41px 0 0;
+    height: 20px;
+}
+
+.taobao_body .head-search .searchfoot-nav a {
+    float: left;
+    margin-right: 8px;
+    color: #6c6c6c;
+}
+
+.taobao_body .head-search .searchfoot-nav a:hover {
+    color: #ff5400;
+}
+
+.taobao_body .head-search .searchfoot-nav .formore {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    float: right;
+    right: 12px;
+    top: 0px;
+    padding-left: 5px;
+    border: 1px solid #e8e8e8;
+}
+
+.taobao_body .head .superSearch {
+    line-height: 16px;
+    display: block;
+    width: 24px;
+    height: 32px;
+    position: absolute;
+    right: 181px;
+    top: 45px;
+    /*	border: 1px solid red;*/
+}
+
+.taobao_body .head .superSearch:hover {
+    color: #ff5400;
+}
+
+.taobao_body .tradeNav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.taobao_body .tradeNav .main {
+    float: left;
+    width: 100%;
+    /*height: 200px;*/
+    /*margin-right: */
+}
+
+.taobao_body .tradeNav .main .cont {
+    margin-left: 200px;
+    /*background-color: red;*/
+    /*height: 200px;*/
+    /*border: 1px solid orange;*/
+}
+
+.taobao_body .tradeNav .main .cont:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.taobao_body .tradeNav .main .nav1 {
+    position: relative;
+    height: 34px;
+    border-bottom: 2px solid #f40;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .serve {
+    float: left;
+    width: 190px;
+    /* height: 200px;*/
+    margin-left: -100%;
+    border: 1px solid black;
+    /*background-color: blue;*/
+}
+
+.taobao_body .tradeNav .main .nav1 ul {
+    margin-top: 4px;
+    height: 33px;
+}
+
+.taobao_body .tradeNav .main .type1 {
+    float: left;
+}
+
+.taobao_body .tradeNav .main .type1 li {
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.taobao_body .tradeNav .nav1 .type1 a {
+    padding: 0 3px;
+    width: 70px;
+    color: #f40;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    float: left;
+    font-size: 16px;
+}
+
+.taobao_body .tradeNav .nav1 .type1 a:hover {
+    background-color: #eee;
+}
+
+.taobao_body .tradeNav .main .type2 {
+    float: left;
+}
+
+.taobao_body .tradeNav .main .type2 li {
+    margin: 0 9px;
+    float: left;
+    font-weight: 700px;
+}
+
+.taobao_body .tradeNav .main .type2 li a {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    float: left;
+    padding: 0 5px;
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.taobao_body .tradeNav .main .type2 li a:hover {
+    color: #f40;
+    background-color: #eee;
+}
+
+.taobao_body .tradeNav .type2 .pipe {
+    font-weight: 400;
+    padding: 2px 5px 0 0;
+    font-size: 14px;
+    color: rgb(232, 232, 232);
+    line-height: 21px;
+}
+
+.taobao_body .tradeNav .main .type3 {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    float: right;
+    position: absolute;
+    top: -2px;
+    right: 0px;
+}
+
+.taobao_body .tradeNav .main .type3 li {
+    float: left;
+    font-weight: 700;
+    margin: 0 9px;
+}
+
+.taobao_body .tradeNav .main .type3 li a {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    float: left;
+    padding: 0 5px;
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.taobao_body .tradeNav .main .type3 li a:hover {
+    color: #f40;
+    background-color: #eee;
+}
+
+.taobao_body .tradeNav .type3 .pipe {
+    font-weight: 400 !important;
+    ;
+    padding: 2px 5px 0 0;
+    font-size: 14px;
+    color: rgb(232, 232, 232);
+    line-height: 26px;
+}
+
+.taobao_body .tradeNav .pic1 {
+    margin-top: 10px;
+    float: left;
+    width: 520px;
+}
+
+.taobao_body .tradeNav .pic2 {
+    float: left;
+    margin-top: 10px;
+}
+
+.taobao_body .tradeNav .indi {
+    float: left;
+    padding-left: 8px;
+    width: 290px;
+    margin-top: 10px;
+    background: #fff;
+    /*	border: 1px solid black;*/
+}
+
+.taobao_body .tradeNav .pic1 .first {
+    position: relative;
+    width: 520px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .pic1 .second {
+    position: relative;
+    width: 520px;
+    height: 198px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .pic1 .second img {
+    float: left;
+    height: 198px;
+    width: 130px;
+}
+
+.taobao_body .tradeNav .pic2 .first {
+    position: relative;
+    width: 170px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .pic2 .second {
+    position: relative;
+    width: 170px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .indi-nav {
+    border: 1px solid #e8e8e8;
+}
+
+.taobao_body .tradeNav .indi-nav .fir-nav {
+    height: 27px;
+    background: #f7f7f7;
+    /*border: 1px solid black;*/
+}
+
+.taobao_body .tradeNav .indi-nav .fir-nav li {
+    float: left;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 1px;
+    width: 55px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.taobao_body .tradeNav .indi-nav .fir-nav li.selected {
+    padding: 0;
+    color: #3c3c3c;
+    font-weight: 700;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom-color: #fff;
+    background: #fff;
+}
+
+.taobao_body .tradeNav .indi-nav .fir-nav li>a:hover {
+    color: #f40;
+}
+
+.taobao_body .tradeNav .indi-nav .cont-nav {
+    margin: 10px;
+    height: 50px;
+}
+
+.taobao_body .tradeNav .indi-nav .cont-nav li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    width: 134px;
+}
+
+.taobao_body .tradeNav .indi-nav .cont-nav li a:hover {
+    color: #f50;
+}
+
+.taobao_body .tradeNav .indi-info {
+    padding: 5px 10px;
+    width: 268px;
+    height: 110px;
+    margin-top: -1px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-position: right top;
+    overflow: hidden;
+    background-image: url(img/bg.png);
+    background-size: 268px 110px;
+    background-repeat: no-repeat;
+}
+
+.taobao_body .tradeNav .indi-info .info1 .wrapper {
+    position: relative;
+    margin-bottom: 5px;
+    height: 60px;
+    padding: 5px 0 0 70px;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .indi-info .info1 {}
+
+.taobao_body .tradeNav .indi-info .wrapper .info1 img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .indi-info .info2 {
+    margin-top: 5px;
+}
+
+
+
+/*.taobao_body .tradeNav .indi-info .info2 a{
+	margin-right:5px;
+	width: 107px; 
+
+}*/
+
+.taobao_body .tradeNav .indi-info .info2 .icon {
+    float: left;
+    margin: 4px 0 4px 4px;
+    width: 18px;
+    height: 18px;
+    background-image: url(img/coin.png);
+    background-position: 27px 620px;
+}
+
+.taobao_body .tradeNav .indi-info .info2 .icon1 {
+    float: left;
+    margin: 4px 0 4px 4px;
+    width: 18px;
+    height: 18px;
+    background-image: url(img/coin.png);
+    background-position: 27px 620px;
+}
+
+.taobao_body .tradeNav .indi-info .info2 a {
+    float: left;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+    color: #f55732;
+    border: 1px solid #fdb08e;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #fff0e8;
+}
+
+.taobao_body .tradeNav .wrapper2 {
+    height: 41px;
+    overflow: hidden;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.taobao_body .tradeNav .wrapper2 .cont2 {
+    width: 260px;
+    height: 36px;
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+
+.taobao_body .cont2 a {
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 35px;
+    overflow: hidden;
+    width: 70px;
+    margin-left: 16px;
+    margin-top: 5px;
+    text-align: center;
+    color: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #f40;
+}
+
+.taobao_body .cont2 a:hover {
+    background-color: red;
+}
+
+.taobao_body .indi-cont {
+    position: relative;
+    padding-bottom: 10px;
+    width: 288px;
+    height: 205px;
+    border-top: 0;
+    background: #F4F4F4;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .indi-cont .tit {
+    position: relative;
+    padding: 0 16px;
+}
+
+.taobao_body .indi-cont .tit h3 {
+    width: 70px;
+    height: 16px;
+    text-indent: -200px;
+    margin-top: 10px;
+    overflow: hidden;
+    background-position: 0 -385px;
+    background-image: url(img/search.png);
+}
+
+.taobao_body .tradeNav .indi-cont .cont3 {
+    position: relative;
+    margin-top: 10px;
+    height: 172px;
+    margin-left: 12px;
+    overflow: hidden;
+}
+
+.taobao_body .tradeNav .indi-cont .cont3 a{
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 54px;
+    height: 48px;
+    color: #9c9c9c;
+    background: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    outline: 0;
+    overflow: hidden;
+    border: 1px solid #ddd;
+ 
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-1,.taobao_body .tradeNav .indi-cont .cont3 .logo-2,.taobao_body .tradeNav .indi-cont .cont3 .logo-3,.taobao_body .tradeNav .indi-cont .cont3 .logo-4,.taobao_body .tradeNav .indi-cont .cont3 .logo-5,.taobao_body .tradeNav .indi-cont .cont3 .logo-6,.taobao_body .tradeNav .indi-cont .cont3 .logo-7,.taobao_body .tradeNav .indi-cont .cont3 .logo-8,.taobao_body .tradeNav .indi-cont .cont3 .logo-9,.taobao_body .tradeNav .indi-cont .cont3 .logo-10,.taobao_body .tradeNav .indi-cont .cont3 .logo-11,.taobao_body .tradeNav .indi-cont .cont3 .logo-12{
+	    display: inline-block;
+		vertical-align: middle;
+		width: 25px;
+		height: 21px;
+		margin-right: 7px;
+		margin-top: 6px;
+	   background-image: url(img/icon.png);
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-1{
+	background-position: 0 0;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-2{
+	background-position: 0 -132px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-3{
+	background-position: 0 -85px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-4{
+	background-position: 0 -44px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-5{
+	background-position: 0 -176px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-6{
+	background-position: 0 -220px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-7{
+	background-position: 0 -264px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-8{
+	background-position: 0 -308px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-9{
+	background-position: 0 -352px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-10{
+	background-position: 0 -396px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-11{
+	background-position: 0 -440px;
+}
+.taobao_body .tradeNav .indi-cont .cont3 .logo-12{
+	background-position: 0 -484px;
+}
+.taobao_body .tradeNav .serve .wrapper{
+	width: 190px;
+	box-shadow: 2px 2px 0 #eeeef0;
+	background-color: #fff;
+	position: relative;
+}
+.taobao_body .tradeNav .serve .wrapper h2{
+	background:#f40;
+	height: 35px;
+
+}
+.taobao_body .tradeNav .serve .wrapper .ser-logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 14px;
+	height: 16px;
+	width: 100px;
+	text-indent: -2000px;
+	background-position: 0 -125px;
+	background-image: url(img/search.png);
+}
+
+.taobao_body .tradeNav .serve .wrapper dl{
+	height: 489px;
+	overflow-y: hidden;
+	border:1px solid #ff4401;
+	border-top: 0;
+	padding: 0 9px;
+}
+.taobao_body .tradeNav .serve .wrapper dt{
+	padding-top:10px;
+	font-size:14px;
+	line-height:19px;
+	font-weight:700;
+	padding-bottom:1px;
+} 
+.taobao_body .tradeNav .serve .wrapper dd{
+	border-bottom: 1px solid #e6e7eb;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	line-height: 22px;
+}
+
+.taobao_body .tradeNav .serve .fir-logo,.taobao_body .tradeNav .serve .sec-logo,.taobao_body .tradeNav .serve .thr-logo,.taobao_body .tradeNav .serve .fth-logo{
+	display: inline-block;
+	vertical-align: middle;
+	width: 25px;
+	height: 21px;
+	margin-right: 7px;
+	margin-top: -3px;
+	background-image: url(img/search.png);
+
+}
+.taobao_body .tradeNav .serve .fir-logo{
+	background-position: -150px -240px;
+}
+.taobao_body .tradeNav .serve .sec-logo{
+	background-position: -150px -215px;
+}
+.taobao_body .tradeNav .serve .thr-logo{
+	background-position: -150px -190px;
+
+}
+.taobao_body .tradeNav .serve .fth-logo{
+	background-position: -150px -265px;
+}
+
+.taobao_body .tradeNav .serve dl a{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.taobao_body .tradeNav .serve a.c1{
+	width: 64px;
+
+}
+.taobao_body .tradeNav .serve a.c2{
+	width: 54px;
+}
+.taobao_body .tradeNav .serve a.c3{
+	width: 38px;
+}
